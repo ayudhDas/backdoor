@@ -4,9 +4,13 @@
 	"description": "Enter blocked websites using a backdoor (proxy)",
 	"version": "0.1",
 	"author": "Ayudh Das <ayudh.d@gmail.com>",
+	"icons": {
+		"256": "Unlock.png"
+	},
 	
 	"browser_action": {
-		"default_title": "use a proxy on this site"
+		"default_title": "use a proxy on this site",
+		"default_icon": "Unlock.png"
 	},
 	"background": {
 		"scripts": ["listener.js"]
