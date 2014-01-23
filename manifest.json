@@ -1,0 +1,15 @@
+﻿{
+	"manifest_version": 2,
+	"name": "backdoor",
+	"description": "Enter blocked websites using a backdoor (proxy)",
+	"version": "0.1",
+	"author": "Ayudh Das <ayudh.d@gmail.com>",
+	
+	"browser_action": {
+		"default_title": "use a proxy on this site"
+	},
+	"background": {
+		"scripts": ["listener.js"]
+	},
+	"permissions": ["activeTab"]
+}
